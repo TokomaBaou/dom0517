@@ -11,3 +11,7 @@ document.querySelector("#box1").setAttribute("id", "test");
 // document.querySelector("#test").remove();
 //htmlの代入
 document.querySelector("#test").innerHTML = "<p>代入</p>";
+
+let newItem = document.createElement("div");
+newItem.innerHTML = "Create Element";
+document.body.append(newItem);
