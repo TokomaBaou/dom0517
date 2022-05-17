@@ -19,3 +19,11 @@ document.body.append(newItem);
 let newItem2 = document.createElement("div");
 newItem2.innerHTML = "append Child";
 document.querySelector("#test").appendChild(newItem2);
+
+window.onload = () => {
+  console.log("hello");
+};
+
+window.addEventListener("load", () => {
+  console.log("event1!!");
+});
